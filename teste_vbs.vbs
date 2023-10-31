@@ -18,7 +18,7 @@ Sub dowork()
     Dim prjName
     Dim prjObject
 
-    prjName = "C:\Users\sidneyd\Project_estudo_franquia_v2.egp"    'Project Name
+    prjName = "path:\Project.egp"    'Project Name
      
     Set app = CreateObject("SASEGObjectModel.Application.7.1")
     If Checkerror("CreateObject") = True Then
